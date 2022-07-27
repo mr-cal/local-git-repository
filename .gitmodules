@@ -1,0 +1,3 @@
+[submodule "cmake-hello-world"]
+	path = cmake-hello-world
+	url = https://github.com/mr-cal/cmake-hello-world.git
