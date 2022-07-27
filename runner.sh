@@ -6,11 +6,11 @@
 # initialize git, if needed
 if [[ ! -d my/local/repo/.git ]]; then
   pushd my/local/repo
-  git init
+  git init -b main
   git add -A
   git commit -m "initial commit"
   popd
 fi
 
-# now run snapcraft
+# run snapcraft
 snapcraft
